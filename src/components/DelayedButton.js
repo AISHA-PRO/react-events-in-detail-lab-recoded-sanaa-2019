@@ -9,7 +9,7 @@ export default class DelayedButton extends Component{
 
   render(){
     return(
-      <button onClick={this.getCoordinates}>get Coordinates</button>
+      <button onClick={this.onDelayedClick }>get Coordinates</button>
     );
   }
 }
